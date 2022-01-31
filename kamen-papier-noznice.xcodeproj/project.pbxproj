@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56DE69F427A8773000B7C128 /* kamen_papier_nozniceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DE69F327A8773000B7C128 /* kamen_papier_nozniceApp.swift */; };
+		56DE69F627A8773000B7C128 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DE69F527A8773000B7C128 /* ContentView.swift */; };
+		56DE69F827A8773500B7C128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DE69F727A8773500B7C128 /* Assets.xcassets */; };
+		56DE69FB27A8773500B7C128 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DE69FA27A8773500B7C128 /* Preview Assets.xcassets */; };
+		56DE6A0527A8773600B7C128 /* kamen_papier_nozniceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DE6A0427A8773600B7C128 /* kamen_papier_nozniceTests.swift */; };
+		56DE6A0F27A8773600B7C128 /* kamen_papier_nozniceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DE6A0E27A8773600B7C128 /* kamen_papier_nozniceUITests.swift */; };
+		56DE6A1127A8773600B7C128 /* kamen_papier_nozniceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DE6A1027A8773600B7C128 /* kamen_papier_nozniceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56DE6A0127A8773600B7C128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DE69E827A8773000B7C128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56DE69EF27A8773000B7C128;
+			remoteInfo = "kamen-papier-noznice";
+		};
+		56DE6A0B27A8773600B7C128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DE69E827A8773000B7C128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56DE69EF27A8773000B7C128;
+			remoteInfo = "kamen-papier-noznice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56DE69F027A8773000B7C128 /* kamen-papier-noznice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kamen-papier-noznice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DE69F327A8773000B7C128 /* kamen_papier_nozniceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kamen_papier_nozniceApp.swift; sourceTree = "<group>"; };
+		56DE69F527A8773000B7C128 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56DE69F727A8773500B7C128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56DE69FA27A8773500B7C128 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56DE6A0027A8773600B7C128 /* kamen-papier-nozniceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kamen-papier-nozniceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DE6A0427A8773600B7C128 /* kamen_papier_nozniceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kamen_papier_nozniceTests.swift; sourceTree = "<group>"; };
+		56DE6A0A27A8773600B7C128 /* kamen-papier-nozniceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kamen-papier-nozniceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DE6A0E27A8773600B7C128 /* kamen_papier_nozniceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kamen_papier_nozniceUITests.swift; sourceTree = "<group>"; };
+		56DE6A1027A8773600B7C128 /* kamen_papier_nozniceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kamen_papier_nozniceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56DE69ED27A8773000B7C128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DE69FD27A8773600B7C128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DE6A0727A8773600B7C128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56DE69E727A8773000B7C128 = {
+			isa = PBXGroup;
+			children = (
+				56DE69F227A8773000B7C128 /* kamen-papier-noznice */,
+				56DE6A0327A8773600B7C128 /* kamen-papier-nozniceTests */,
+				56DE6A0D27A8773600B7C128 /* kamen-papier-nozniceUITests */,
+				56DE69F127A8773000B7C128 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56DE69F127A8773000B7C128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56DE69F027A8773000B7C128 /* kamen-papier-noznice.app */,
+				56DE6A0027A8773600B7C128 /* kamen-papier-nozniceTests.xctest */,
+				56DE6A0A27A8773600B7C128 /* kamen-papier-nozniceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56DE69F227A8773000B7C128 /* kamen-papier-noznice */ = {
+			isa = PBXGroup;
+			children = (
+				56DE69F327A8773000B7C128 /* kamen_papier_nozniceApp.swift */,
+				56DE69F527A8773000B7C128 /* ContentView.swift */,
+				56DE69F727A8773500B7C128 /* Assets.xcassets */,
+				56DE69F927A8773500B7C128 /* Preview Content */,
+			);
+			path = "kamen-papier-noznice";
+			sourceTree = "<group>";
+		};
+		56DE69F927A8773500B7C128 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56DE69FA27A8773500B7C128 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56DE6A0327A8773600B7C128 /* kamen-papier-nozniceTests */ = {
+			isa = PBXGroup;
+			children = (
+				56DE6A0427A8773600B7C128 /* kamen_papier_nozniceTests.swift */,
+			);
+			path = "kamen-papier-nozniceTests";
+			sourceTree = "<group>";
+		};
+		56DE6A0D27A8773600B7C128 /* kamen-papier-nozniceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56DE6A0E27A8773600B7C128 /* kamen_papier_nozniceUITests.swift */,
+				56DE6A1027A8773600B7C128 /* kamen_papier_nozniceUITestsLaunchTests.swift */,
+			);
+			path = "kamen-papier-nozniceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56DE69EF27A8773000B7C128 /* kamen-papier-noznice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DE6A1427A8773600B7C128 /* Build configuration list for PBXNativeTarget "kamen-papier-noznice" */;
+			buildPhases = (
+				56DE69EC27A8773000B7C128 /* Sources */,
+				56DE69ED27A8773000B7C128 /* Frameworks */,
+				56DE69EE27A8773000B7C128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kamen-papier-noznice";
+			productName = "kamen-papier-noznice";
+			productReference = 56DE69F027A8773000B7C128 /* kamen-papier-noznice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56DE69FF27A8773600B7C128 /* kamen-papier-nozniceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DE6A1727A8773600B7C128 /* Build configuration list for PBXNativeTarget "kamen-papier-nozniceTests" */;
+			buildPhases = (
+				56DE69FC27A8773600B7C128 /* Sources */,
+				56DE69FD27A8773600B7C128 /* Frameworks */,
+				56DE69FE27A8773600B7C128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56DE6A0227A8773600B7C128 /* PBXTargetDependency */,
+			);
+			name = "kamen-papier-nozniceTests";
+			productName = "kamen-papier-nozniceTests";
+			productReference = 56DE6A0027A8773600B7C128 /* kamen-papier-nozniceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56DE6A0927A8773600B7C128 /* kamen-papier-nozniceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DE6A1A27A8773600B7C128 /* Build configuration list for PBXNativeTarget "kamen-papier-nozniceUITests" */;
+			buildPhases = (
+				56DE6A0627A8773600B7C128 /* Sources */,
+				56DE6A0727A8773600B7C128 /* Frameworks */,
+				56DE6A0827A8773600B7C128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56DE6A0C27A8773600B7C128 /* PBXTargetDependency */,
+			);
+			name = "kamen-papier-nozniceUITests";
+			productName = "kamen-papier-nozniceUITests";
+			productReference = 56DE6A0A27A8773600B7C128 /* kamen-papier-nozniceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56DE69E827A8773000B7C128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					56DE69EF27A8773000B7C128 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					56DE69FF27A8773600B7C128 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 56DE69EF27A8773000B7C128;
+					};
+					56DE6A0927A8773600B7C128 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 56DE69EF27A8773000B7C128;
+					};
+				};
+			};
+			buildConfigurationList = 56DE69EB27A8773000B7C128 /* Build configuration list for PBXProject "kamen-papier-noznice" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56DE69E727A8773000B7C128;
+			productRefGroup = 56DE69F127A8773000B7C128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56DE69EF27A8773000B7C128 /* kamen-papier-noznice */,
+				56DE69FF27A8773600B7C128 /* kamen-papier-nozniceTests */,
+				56DE6A0927A8773600B7C128 /* kamen-papier-nozniceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56DE69EE27A8773000B7C128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DE69FB27A8773500B7C128 /* Preview Assets.xcassets in Resources */,
+				56DE69F827A8773500B7C128 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DE69FE27A8773600B7C128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DE6A0827A8773600B7C128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56DE69EC27A8773000B7C128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DE69F627A8773000B7C128 /* ContentView.swift in Sources */,
+				56DE69F427A8773000B7C128 /* kamen_papier_nozniceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DE69FC27A8773600B7C128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DE6A0527A8773600B7C128 /* kamen_papier_nozniceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DE6A0627A8773600B7C128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DE6A0F27A8773600B7C128 /* kamen_papier_nozniceUITests.swift in Sources */,
+				56DE6A1127A8773600B7C128 /* kamen_papier_nozniceUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56DE6A0227A8773600B7C128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56DE69EF27A8773000B7C128 /* kamen-papier-noznice */;
+			targetProxy = 56DE6A0127A8773600B7C128 /* PBXContainerItemProxy */;
+		};
+		56DE6A0C27A8773600B7C128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56DE69EF27A8773000B7C128 /* kamen-papier-noznice */;
+			targetProxy = 56DE6A0B27A8773600B7C128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56DE6A1227A8773600B7C128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56DE6A1327A8773600B7C128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56DE6A1527A8773600B7C128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kamen-papier-noznice/Preview Content\"";
+				DEVELOPMENT_TEAM = 523N78PK3C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Belko.kamen-papier-noznice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56DE6A1627A8773600B7C128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kamen-papier-noznice/Preview Content\"";
+				DEVELOPMENT_TEAM = 523N78PK3C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Belko.kamen-papier-noznice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56DE6A1827A8773600B7C128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 523N78PK3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Belko.kamen-papier-nozniceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kamen-papier-noznice.app/kamen-papier-noznice";
+			};
+			name = Debug;
+		};
+		56DE6A1927A8773600B7C128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 523N78PK3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Belko.kamen-papier-nozniceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kamen-papier-noznice.app/kamen-papier-noznice";
+			};
+			name = Release;
+		};
+		56DE6A1B27A8773600B7C128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 523N78PK3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Belko.kamen-papier-nozniceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kamen-papier-noznice";
+			};
+			name = Debug;
+		};
+		56DE6A1C27A8773600B7C128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 523N78PK3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Belko.kamen-papier-nozniceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kamen-papier-noznice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56DE69EB27A8773000B7C128 /* Build configuration list for PBXProject "kamen-papier-noznice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DE6A1227A8773600B7C128 /* Debug */,
+				56DE6A1327A8773600B7C128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DE6A1427A8773600B7C128 /* Build configuration list for PBXNativeTarget "kamen-papier-noznice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DE6A1527A8773600B7C128 /* Debug */,
+				56DE6A1627A8773600B7C128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DE6A1727A8773600B7C128 /* Build configuration list for PBXNativeTarget "kamen-papier-nozniceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DE6A1827A8773600B7C128 /* Debug */,
+				56DE6A1927A8773600B7C128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DE6A1A27A8773600B7C128 /* Build configuration list for PBXNativeTarget "kamen-papier-nozniceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DE6A1B27A8773600B7C128 /* Debug */,
+				56DE6A1C27A8773600B7C128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56DE69E827A8773000B7C128 /* Project object */;
+}
