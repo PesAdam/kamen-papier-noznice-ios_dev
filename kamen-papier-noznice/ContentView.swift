@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var myChoice: Choice = .kamen
+    
+    
     var body: some View {
         HStack{
             
-            CustomButton(choice: .kamen)
-            CustomButton(choice: .papier)
-            CustomButton(choice: .noznice)
+            CustomButton(choice: .kamen, myChoice: $myChoice)
+            CustomButton(choice: .papier, myChoice: $myChoice)
+            CustomButton(choice: .noznice, myChoice: $myChoice)
             
             /*Image(systemName: "octagon.fill")
                 .resizable()
@@ -46,16 +50,22 @@ struct ContentView_Previews: PreviewProvider {
 
 struct CustomButton: View {
     let choice: Choice
+    @Binding var  myChoice: Choice
+    
+    var isPicked:Bool {
+        return choice == myChoice
+    }
     
     var body: some View {
         Button{
             print(choice)
+            myChoice = choice
         } label: {
             Image(systemName: choice.rawValue )
                 .resizable()
                 .scaledToFit()
                 .frame(width: 50)
-                .foregroundColor(.black)
+                .foregroundColor(isPicked ? .red : .black)
         }
     }
 }
