@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+        
+            Image(systemName: "scissors")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50)
+            
+            Image(systemName: "scissors")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50)
+       
+            Image(systemName: "scissors")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50)
+        
+        }
     }
 }
 
