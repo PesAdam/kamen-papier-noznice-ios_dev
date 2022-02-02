@@ -29,6 +29,7 @@ struct ContentView: View {
                     ZStack {
                         Rectangle()
                             .frame(height: geo.size.height / 2)
+                            .foregroundColor(Color.black)
                         
                         if opponentsChoiceIsShow {
                             Image(systemName: opponentsChoice.rawValue)
@@ -55,42 +56,91 @@ struct ContentView: View {
                         }
                     }
                     
-                    Image(systemName: myChoice.rawValue)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(height: geo.size.height / 3)
-                        .padding()
-                    
-                    HStack(spacing: 40){
+                    ZStack {
+                        Rectangle()
+                            .frame(height: geo.size.height / 2)
+                            .foregroundColor(Color.white)
+                        VStack {
+                            Image(systemName: myChoice.rawValue)
+                                .resizable()
+                                .scaledToFit()
+                                .foregroundColor(Color.black)
+                                .frame(height: geo.size.height / 3)
+                            .padding()
+                        }
                         
-                        CustomButton(choice: .kamen, myChoice: $myChoice)
-                        CustomButton(choice: .papier, myChoice: $myChoice)
-                        CustomButton(choice: .noznice, myChoice: $myChoice)
                         
+                        HStack(spacing: 40){
+                            
+                            CustomButton(choice: .kamen, myChoice: $myChoice)
+                            CustomButton(choice: .papier, myChoice: $myChoice)
+                            CustomButton(choice: .noznice, myChoice: $myChoice)
+                            
+                        }
                     }
                 }
             }
-                
-                Text("WIN")
-                    .padding(50)
-                    .font(.system(size: 75, weight: .bold))
-                    .foregroundColor(.blue)
-                    .background(Color.black)
-                    .border(Color.white, width: 3)
-                    .cornerRadius(3, antialiased: true)
-                    .offset(x: showingresult ? 0 : -400)
-                    .onTapGesture {
-                        opponentsChoiceIsShow = false
-                        withAnimation(.spring()){
-                            showingresult = false
-                        }
-
-            }
+            
+            Text(getResult().rawValue.uppercased())
+                .padding(50)
+                .font(.system(size: 75, weight: .bold))
+                .foregroundColor(.blue)
+                .background(Color.black)
+                .border(Color.white, width: 3)
+                .cornerRadius(3, antialiased: true)
+                .offset(x: showingresult ? 0 : -400)
+                .onTapGesture {
+                    opponentsChoiceIsShow = false
+                    withAnimation(.spring()){
+                        showingresult = false
+                    }
+                    
+                }
         } .edgesIgnoringSafeArea(.all)
+    }
+    
+    func getResult() -> Result{
+        switch opponentsChoice {
+        case .kamen:
+            switch myChoice {
+            case .kamen:
+                return .draw
+            case .noznice:
+                return .loose
+            case .papier:
+                return .win
+            }
+        case .noznice:
+            switch myChoice {
+            case .kamen:
+                return .win
+            case .noznice:
+                return .draw
+            case .papier:
+                return .loose
+            }
+            
+        case .papier:
+            switch myChoice {
+            case .kamen:
+                return .loose
+            case .noznice:
+                return .win
+            case .papier:
+                return .draw
+            }
+        }
     }
 }
 
-//enumeracia
+//enumeraciae
+enum Result : String {
+    case win
+    case loose
+    case draw
+}
+
+
 enum Choice : String {
     case kamen = "octagon.fill"
     case noznice = "scissors"
