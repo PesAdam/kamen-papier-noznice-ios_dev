@@ -41,8 +41,10 @@ struct ContentView: View {
                             Button{
                                 opponentsChoice = randomChoice
                                 opponentsChoiceIsShow = true
-                                withAnimation{
-                                    showingresult = true 
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 0.4){
+                                    withAnimation(.spring()){
+                                        showingresult = true
+                                    }
                                 }
                                 
                             } label: {
@@ -68,7 +70,6 @@ struct ContentView: View {
                     }
                 }
             }
-
                 
                 Text("WIN")
                     .padding(50)
@@ -80,7 +81,9 @@ struct ContentView: View {
                     .offset(x: showingresult ? 0 : -400)
                     .onTapGesture {
                         opponentsChoiceIsShow = false
-                        showingresult = false
+                        withAnimation(.spring()){
+                            showingresult = false
+                        }
 
             }
         } .edgesIgnoringSafeArea(.all)
