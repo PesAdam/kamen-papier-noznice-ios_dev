@@ -10,26 +10,38 @@ import SwiftUI
 struct ContentView: View {
     
     @State var myChoice: Choice = .kamen
+    @State var opponentsChoice: Choice = .papier
     
     
     var body: some View {
-        HStack{
-            
-            CustomButton(choice: .kamen, myChoice: $myChoice)
-            CustomButton(choice: .papier, myChoice: $myChoice)
-            CustomButton(choice: .noznice, myChoice: $myChoice)
-            
-            /*Image(systemName: "octagon.fill")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 50)
-       
-            Image(systemName: "newspaper.fill")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 50)
-             */
-        }
+        GeometryReader { geo in
+            VStack {
+                ZStack {
+                    Rectangle()
+                        .frame(height: geo.size.height / 2)
+                    Image(systemName: opponentsChoice.rawValue)
+                        .resizable()
+                        .foregroundColor(.white)
+                        .scaledToFit()
+                        .frame(height: geo.size.height / 3)
+                        .padding()
+                }
+                
+                Image(systemName: myChoice.rawValue)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: geo.size.height / 3)
+                    .padding()
+                
+                HStack(spacing: 40){
+                    
+                    CustomButton(choice: .kamen, myChoice: $myChoice)
+                    CustomButton(choice: .papier, myChoice: $myChoice)
+                    CustomButton(choice: .noznice, myChoice: $myChoice)
+                    
+                }
+            }
+        } .edgesIgnoringSafeArea(.all)
     }
 }
 
